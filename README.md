@@ -3,7 +3,7 @@ Copyright (C) 2024 The LineageOS Project
 Device configuration for Xiaomi 12S Pro
 =========================================
 
-The Xiaomi 12S Pro (codenamed _"unicorn"_) is a high-end smartphone from Xiaomi.
+The Xiaomi 12S Pro (codenamed _"diting"_) is a high-end smartphone from Xiaomi.
 
 It was released in July 2023.
 

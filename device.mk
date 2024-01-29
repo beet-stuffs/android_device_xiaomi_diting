@@ -8,7 +8,7 @@
 $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/unicorn/unicorn-vendor.mk)
+$(call inherit-product, vendor/xiaomi/diting/diting-vendor.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -17,12 +17,12 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    ApertureResUnicorn \
-    FrameworksResUnicorn \
-    SettingsProviderResUnicorn \
-    SettingsResUnicorn \
-    SystemUIResUnicorn \
-    WifiResUnicorn
+    ApertureResDiting \
+    FrameworksResDiting \
+    SettingsProviderResDiting \
+    SettingsResDiting \
+    SystemUIResDiting \
+    WifiResDiting
 
 # Sensors
 PRODUCT_PACKAGES += \

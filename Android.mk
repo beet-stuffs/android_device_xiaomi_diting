@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),unicorn)
+ifeq ($(TARGET_DEVICE),diting)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

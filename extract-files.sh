@@ -11,7 +11,7 @@ function blob_fixup() {
         vendor/etc/camera/pureView_parameter.xml)
             sed -i 's/=\([0-9]\+\)>/="\1">/g' "${2}"
             ;;
-        vendor/etc/camera/unicorn_enhance_motiontuning.xml|vendor/etc/camera/unicorn_motiontuning.xml)
+        vendor/etc/camera/diting_enhance_motiontuning.xml|vendor/etc/camera/diting_motiontuning.xml)
             sed -i 's/xml=version/xml version/g' "${2}"
             ;;
     esac
@@ -25,7 +25,7 @@ fi
 
 set -e
 
-export DEVICE=unicorn
+export DEVICE=diting
 export DEVICE_COMMON=sm8450-common
 export VENDOR=xiaomi
 

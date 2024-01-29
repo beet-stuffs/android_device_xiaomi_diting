@@ -8,9 +8,9 @@
 include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
-include vendor/xiaomi/unicorn/BoardConfigVendor.mk
+include vendor/xiaomi/diting/BoardConfigVendor.mk
 
-DEVICE_PATH := device/xiaomi/unicorn
+DEVICE_PATH := device/xiaomi/diting
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop

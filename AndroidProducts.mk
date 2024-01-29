@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_unicorn.mk
+    $(LOCAL_DIR)/lineage_diting.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_unicorn-user \
-    lineage_unicorn-userdebug \
-    lineage_unicorn-eng
+    lineage_diting-user \
+    lineage_diting-userdebug \
+    lineage_diting-eng
